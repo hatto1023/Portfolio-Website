@@ -188,30 +188,19 @@ li {
 .skill-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin-bottom: -50px;
 }
 
 .skill-item {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  width: 48%;
-  margin-bottom: 50px;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
 }
 
 .skill-img {
-  width: 60px;
-  height: auto;
-  margin-right: 20px;
-}
-
-.skill-body {
-  flex: 1;
 }
 
 .skill-name {
-  margin-bottom: 3px;
 }
 
  /* Contact */
