@@ -1,5 +1,5 @@
 body {
-  font-family: "Cormorant Garamond","Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif; 
+  font-family: "Inter", "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 1rem;
   line-height: 1.8;
   letter-spacing: .8px;
@@ -10,13 +10,6 @@ a {
   transition: opacity .3s;
   text-decoration: none;
   color: #333;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  vertical-align: bottom;
-  border-style: none;
 }
 
 ul,
@@ -197,11 +190,13 @@ li {
   margin: 1rem;
 }
 
-.skill-img {
+.skill-img img {
+  width: 48px;
+  height: auto;
 }
 
-.skill-name {
-}
+/* .skill-name {
+} */
 
  /* Contact */
 .contact {
@@ -379,21 +374,6 @@ li {
   }
 
   .portfolio-item:last-child {
-    margin-bottom: 0;
-  }
-
-  /* Skill */
-  .skill-list {
-    display: block;
-    margin-bottom: 0;
-  }
-
-  .skill-item {
-    width: 100%;
-    margin-bottom: 35px;
-  }
-
-  .skill-item:last-child {
     margin-bottom: 0;
   }
 
